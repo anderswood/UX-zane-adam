@@ -1,0 +1,15 @@
+.iphone-deets {
+  width: 100%;
+}
+
+@media screen and (min-width: 650px) {
+
+  body {
+    padding-top: 21.39px; //accounts for iphone deets hiding on desktop
+  }
+
+  .iphone-deets {
+    display: none;
+  }
+
+}
