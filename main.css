@@ -1,11 +1,49 @@
+/****Typeface****/
+body {
+  
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+
+ /****Stylin****/
+
+body {
+  background-color: #B8D8D8;
+}
+
+.inactive {
+  display: none
+}
+
 .iphone-deets {
   width: 100%;
 }
 
+.screen1-container {
+  text-align: center;
+}
+
+.mountain {
+  width: 100%;
+}
+
+.pushup-container {
+  background-color: #7A9E9F;
+}
+
+
+
 @media screen and (min-width: 650px) {
 
   body {
-    padding-top: 21.39px; //accounts for iphone deets hiding on desktop
+    padding-top: 25px; //accounts for iphone deets hiding on desktop view
   }
 
   .iphone-deets {
